@@ -83,16 +83,6 @@ while True:
 			#If someone in your dataset is identified, print their name on the screen
 			if currentname != name:
 				currentname = name
-				#if currentname == 'Nick':
-				#	Ncounter = Ncounter+1
-				#if currentname == 'Lauren':
-				#	Lcounter = Lcounter+1
-				#print(currentname)
-#			if currentname == 'Nick':
-#				print(currentname)
-#				os.system("say 'Hello Nick'")
-#			if currentname == 'Dr. Kulhandjian':
-#				print(currentname)
 #				os.system("say 'Hello Dr. Kulhandjian'")
 
 		# update the list of names
