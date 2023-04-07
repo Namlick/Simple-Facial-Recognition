@@ -1,7 +1,7 @@
 # Simple-Facial-Recognition
 Perform simple facial recognition tasks using OpenCV and the widely used face-recognition Python library. 
 
-Steps to train and use this facial recognition repository.
+Steps to train and use this facial recognition repository:
 
 1. Open the Datasets folder and rename the your_name file to your name, and delete the dummy file inside. 
 
