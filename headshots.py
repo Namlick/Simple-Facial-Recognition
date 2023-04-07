@@ -16,12 +16,12 @@ while True:
         break
     cv2.imshow("press space to take a photo", frame)
 
-    k = cv2.waitKey(1)
-    if k%256 == 27:
-        # ESC pressed
+    key = cv2.waitKey(1)
+    if key == ord("q"):
+        # q key pressed
         print("Escape hit, closing...")
         break
-    elif k%256 == 32:
+    elif key%256 == 32:
         # SPACE pressed
         img_name = "Datasets/"+ name +"/image_{}.jpg".format(img_counter)
         cv2.imwrite(img_name, frame)
