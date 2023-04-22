@@ -7,7 +7,7 @@ Steps to train and use this facial recognition repository:
 
 2. Open the Datasets folder and rename the your_name file to your name, and delete the dummy file inside. 
 
-3. Open headshots.py or headshots_picam.py (if using a picamera) and change the name to your name.
+3. Open headshots.py or headshots_picam.py (if using a picamera) code and change the name to your name.
 
 4. Run the headshots.py or headshots_picam.py code and use the space bar to take pictures of your face from multiple angles. Close the frame by pressing q.
 
