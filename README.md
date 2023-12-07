@@ -9,8 +9,8 @@ Steps to train and use this facial recognition repository:
 
 3. Open headshots.py or headshots_picam.py (if using a picamera) code and change the name to your name.
 
-4. Run the headshots.py or headshots_picam.py code and use the space bar to take pictures of your face from multiple angles. Close the frame by pressing q.
+4. Run the headshots.py or headshots_picam.py code and use the space bar to take pictures of your face from multiple angles. Close the frame by pressing the "q" key on your keyboard.
 
 5. Run the train_model.py code.
 
-6. Run the facial_req_simple.py code and observe as it draws a bounding box around your face and labels it with your name. 
+6. Run the facial_rec_simple.py code and observe as it draws a bounding box around your face and labels it with your name. 
