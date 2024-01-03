@@ -16,8 +16,7 @@ while True:
         break
     cv2.imshow("press space to take a photo", frame)
 
-    key = cv2.waitKey(1)
-    if key == ord("q"):
+    if (key := cv2.waitKey(1)) == ord("q"):
         # q key pressed
         print("Escape hit, closing...")
         break

@@ -100,10 +100,9 @@ while True:
 			.5, (0, 0, 0), 2)
 	# display the image to our screen
 	cv2.imshow("Facial Recognition is Running", frame)
-	key = cv2.waitKey(1) & 0xFF
 
 	# quit when 'q' key is pressed
-	if key == ord("q"):
+	if (key := cv2.waitKey(1) & 0xFF) == ord("q"):
 		break
 
 	# update the FPS counter
