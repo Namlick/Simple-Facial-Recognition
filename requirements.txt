@@ -1,3 +1,4 @@
+python-git
 imutils
 opencv-python
 cmake
